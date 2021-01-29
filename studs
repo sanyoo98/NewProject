@@ -1,0 +1,9 @@
+create table studs
+(
+rollno int primary key,
+name nvarchar(50) not null,
+contact nvarchar(50) not null unique,
+email nvarchar(50) not null unique,
+)
+
+select * from studs
